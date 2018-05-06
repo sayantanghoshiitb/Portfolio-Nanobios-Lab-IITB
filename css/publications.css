@@ -1,0 +1,48 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face {
+  font-family: 'Yanone Kaffeesatz';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Yanone Kaffeesatz Regular'), local('YanoneKaffeesatz-Regular'), url('../fonts/YanoneKaffeesatz.woff') format('woff');
+}
+/*---------------------------CSS for Publications.html---------------------------*/
+.yieldContent { float: left; margin: 0px 10px; padding: 0px 0px 20px; width: 600px; }
+body { font-family: Arial,Helevtica,Verdana,san-serif; font-size: 12px; font-weight: normal; line-height: 150%; }
+/*.yieldContent .page, .yieldContent .page .top { background-image: url('../images/pubcontent-top-bg.png'); }*/
+/*.yieldContent .bottom { background-image: url('../images/pubcontent-bottom-bg.png'); }*/
+/*.yieldContent .page { background-repeat: repeat-y; background-position: -1200px 0px; margin: 0px 0px 0px; padding: 20px; position: relative; }*/
+/*.yieldContent .page .top { background-position: -600px 0px; background-repeat: no-repeat; position: absolute; top: 0px; left: 0px; width: 600px; height: 20px; }*/
+/*.yieldContent .bottom { background-position: -600px 0px; background-repeat: no-repeat; position:relative; top: 0px; left: 0px; width: 600px; height: 20px; }*/
+.yieldContent .page { 
+border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+background-color:#FAFAFA; border: 1px solid #33DCFB; background-position: -1200px 0px; margin: 0px 0px 0px; padding: 20px; position: relative; 
+}
+.yieldContent h1 {color:#474747; margin-top: 0px; margin-left: 10px; font-size: 32px;}
+.yieldContent h2 {color:#666666;text-transform:inherit;font-size: 23px;}
+.yieldContent h1, h2 { font-family: 'Yanone Kaffeesatz',arial,serif; font-weight: normal; line-height: 150%; margin: 0px 0px 12px; padding: 0px; position: relative; }
+.yieldContent ul { padding: 0px 0px 13px 25px; }
+.yieldContent ol { list-style: decimal outside none; padding: 0px 0px 13px 25px; }
+.yieldContent ul li { list-style: disc outside none; padding: 5px 0px; }
+.yieldContent ol li { list-style: decimal outside none; padding: 5px 0px; text-align:justify; }
+.yieldContent a { color: rgb(55, 126, 255); }
+.yieldContent a:hover { color: rgb(13, 48, 111); }
+
+.yieldContent h1 span, h2 span { background: url('../images/text-gradient.png') repeat-x scroll 0% 0% transparent; }
+.yieldContent .page h1 span, .page h2 span { background-image: url('../images/text-gradient-light.png'); }
+
+#sidebar { position: relative; float: left; margin: 0px 10px 10px; padding: 10px 0px 20px; width: 320px;  }
+#sidebar ul { border-top: 1px solid rgb(227, 227, 227); list-style: none outside none; margin: 0px; padding: 0px;}
+#sidebar li { border-bottom: 1px solid rgb(227, 227, 227); list-style: none outside none; margin: 0px; padding: 0px;}
+#sidebar li a { color: rgb(102, 102, 102); display: block; padding: 7px 5px; }
+#sidebar li a:hover { background-color: rgb(250, 250, 250); color: rgb(55, 126, 255);}
+#sidebar #sidebar-top { position: absolute; top: 0px; left: 0px; width: 9px; height: 60px; }
+#sidebar #sidebar-bottom { position: absolute; bottom: 0px; left: 0px; width: 9px; height: 60px; }
+
+.widget { margin: 3px 0px 15px; }
+#sidebar .widget { margin-left: 20px; }
+#sidebar h1 {color:#474747; margin-top: 0px; font-size: 32px;}
+#sidebar h2 {color:#666666;text-transform:inherit;font-size: 23px;}
+#sidebar h1, h2 { font-family: 'Yanone Kaffeesatz',arial,serif; font-weight: normal; line-height: 150%; margin: 0px 0px 12px; padding: 0px; position: relative; }
